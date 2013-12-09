@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sbox.absforpwdassi"
+    android:versionCode="440"
+    android:versionName="4.4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/application_name" >
+        <activity
+            android:name="com.sbox.absforpwdassi.demo..SampleList"
+            android:label="@string/activity_name"
+            android:theme="@style/Theme.Sherlock" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.ActionItems"
+            android:label="@string/action_items" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.ActionModes"
+            android:label="@string/action_modes" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.ActionModesNoActionBar"
+            android:label="@string/action_modes_no_action_bar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.ActionProviders"
+            android:label="@string/action_providers" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.CollapsibleActionItem"
+            android:label="@string/collapsible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.ContextMenus"
+            android:label="@string/context_menus" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.CustomNavigation"
+            android:label="@string/custom_navigation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.FeatureToggles"
+            android:label="@string/feature_toggles" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.IndeterminateProgress"
+            android:label="@string/iprogress" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.ListNavigation"
+            android:label="@string/list_navigation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.Overlay"
+            android:label="@string/overlay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.Preference"
+            android:label="@string/preference" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.Progress"
+            android:label="@string/progress" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.SearchViews"
+            android:label="@string/search_views" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.Simple"
+            android:label="@string/simple" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.SplitActionItems"
+            android:label="@string/split"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.ShareActionProviders"
+            android:label="@string/share_action_providers" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.SplitActionModes"
+            android:label="@string/split_action_modes"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.StaticAttachment"
+            android:label="@string/static_attach" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.Styled"
+            android:label="@string/styled"
+            android:theme="@style/Theme.Styled"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.SubMenus"
+            android:label="@string/submenus" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.TabNavigation"
+            android:label="@string/tab_navigation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sbox.absforpwdassi.demo.TabNavigationCollapsed"
+            android:label="@string/tab_navigation_collapsed" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.actionbarsherlock.sample.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
